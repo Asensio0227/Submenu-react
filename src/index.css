@@ -361,7 +361,7 @@ nav {
   display: flex;
   text-align: center;
 }
-.sidebar-sublinks svg {
+.sidebar-sublinks a {
   margin-right: 1rem;
   color: var(--clr-grey-7);
 }
@@ -410,7 +410,7 @@ nav {
 .col-4 {
   grid-template-columns: repeat(4, 1fr)
 }
-.submenu-center a {
+.submenu-center li {
   width: 10rem;
   display: block;
   text-transform: capitalize;
@@ -418,7 +418,7 @@ nav {
   display: flex;
   align-items: center;
 }
-.submenu-center svg {
+.submenu-center a {
   margin-right: 1rem;
   color: var(--clr-grey-7);
 }
